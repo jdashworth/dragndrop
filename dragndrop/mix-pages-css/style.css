@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'hack-regular';
+    src: url('../fonts/webfonts/hack-regular/hack-regular.woff2') format('woff2');
+         
+    font-weight: bold;
+    font-style: normal;
+}
+@media screen and (max-width: 900px) {
+    *{
+    display:block;
+    flex-direction: column;
+    margin: 1px;
+        
+
+    }
+  body {height: 100vh; }
+  
+    
+    main   {
+       justify-content: center;
+        margin: 1rem;
+        flex-wrap: wrap;
+
+    }
+ 
+}
+
+    html{
+        margin:0 auto;
+     
+    font-family: 'hack-regular';
+    color:#7af0c8;   
+
+  
+   
+
+ 
+    
+
+
+    
+}
+.image {
+    padding: auto;
+    align-items: center;
+justify-content: center;
+
+    width: 300px;
+    height: auto;
+  border-radius: 50%;
+animation: turn 30s 0s infinite;
+border: #7af0c8 1px double;
+}
+@keyframes turn {
+   0% {rotate: 0deg;transform:scale(100%)}
+    
+    50%{rotate: 360deg;  transform:scale(0%); opacity: 0%;
+    }
+   
+    100%{rotate: 0deg;transform:scale(100%)}
+}
+
+body {
+    height: 100vh; 
+    list-style: none;
+       background-image: url(../IMG/back2.png) !important;
+     background-size:contain;
+     display: flex;
+     flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+
+
+
+   
+    
+
+
+    
+    
+
+ 
+    
+
+
+
+
+
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+justify-content: center;
+
+  
+}
+ h1{
+    margin: 10px;
+    padding: 10px;
+    text-decoration-style:double;
+    color:#7af0c8;   
+    flex:1; 
+    font-style: oblique;
+    animation: left 30s infinite;
+
+
+
+}
+div.play{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding-top: 20px;
+    animation: left 30s infinite;}
+@keyframes left {
+    
+    0% {opacity: 10%;
+ }
+ 
+
+
+50% {opacity: 100%;
+}
+
+100%{opacity: 10%; }
+
+}
+#press {
+    color: #7af0c8 ;
+    
+display: flex;
+flex-direction: row;
+width: auto;
+justify-content: space-between;
+
+    font-size: larger;
+    
+}
+.button{
+    color: #7af0c8 ;
+    padding: 20px;
+
+        background:none;
+
+    border: none;
+
+    flex-wrap: wrap;
+    font-size: larger;
+
+}
+.button:hover{
+    cursor: pointer;
+}

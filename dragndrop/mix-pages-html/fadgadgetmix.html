@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+    @font-face {font-family:"latin-cg-elongated-regular"; src:url(./Latin\ CG\ Elongated.otf) format("truetype");}
+    </style>
+    <link rel="stylesheet" href="../mix-pages-css/stylefad.css">
+    
+
+    <title>Fad Gadget mix by Drag&Drop</title>
+  </head>
+
+  <body>
+    <header>
+      
+        <h1>FaD GaDGeT MiX</h1>
+      
+    </header>
+    <main>
+      <div id="foot">
+        <audio id="player" src="../mp3/fadgaget.mp3">
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+        <div id="player">
+          <button
+            class="button"
+            onclick="document.getElementById('player').play()"
+          >
+            Play
+          </button>
+          <button
+            class="button"
+            onclick="document.getElementById('player').pause()"
+          >
+            Pause
+          </button>
+          <button
+            class="button"
+            onclick="document.getElementById('player').volume += 0.1"
+          >
+            Vol +
+          </button>
+          <button
+            class="button"
+            onclick="document.getElementById('player').volume -= 0.1"
+          >
+            Vol -
+          </button>
+        </div>
+      </div>
+      <section id="tracks">
+        <article id="tracks">
+          <ul
+            style="
+              padding-top: 10px;
+              padding-right: 10px;
+              padding-bottom: 10px;
+              padding-left: 10px;
+            "
+          >
+            <li>Ricky's hand</li>
+            <li>Pedestrian</li>
+            <li>Make room</li>
+            <li>Saturday Night Special</li>
+            <li>Wheels of Fortune</li>
+            <li>Plainsong</li>
+            <li>Sleep</li>
+            <li>Ad Nauseam</li>
+            <li>Incontinent</li>
+            <li>Insecticide</li>
+            <li>Scapegoat</li>
+            <li>State of the nation</li>
+            <li>Under the Flag (Megamix)</li>
+            <li>Coitus interruptus</li>
+          </ul>
+        </article>
+      </section>
+
+      
+    </main>
+    <footer>
+      <div id="footer">
+        <ul style="padding-left: 0px">
+          <li><a href="https://oyibo.incongru.org/">come back home</a></li>
+          <li>
+            <a href="../../mp3/fadgaget.mp3" target="blank" download="FadGadgetMix"
+              >please, take this mix</a
+            >
+          </li>
+          <li>
+            <a href="https://fadgadget.co.uk/" target="_blank">
+              and listen to more music or</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+@media screen and (max-width: 756px) {
+
+
+
+  html { 
+      
+      height: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  
+    }
+      * {
+        
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0 auto; 
+        font-family:"Akagi Pro W00 Medium";
+      }
+        body {
+          min-height: 100%;
+      background-color: #181115 ;
+      border: transparent 1px;
+      align-items: center;
+      flex-wrap: wrap;
+  
+  
+      }
+        h1 {
+            flex-basis: 100%;
+            text-align: center;
+            color: #B8F500;
+            font-family:" Akagi Pro W00 Medium";
+            align-items: center;
+            margin-bottom: 20px;
+        }
+  
+      section#right {
+          display: flex;
+          flex-direction :row-reverse;
+          align-items:  center;
+          gap: 10px;
+          flex-wrap: wrap;
+          
+          }
+  
+          section#right article#tracks ul{
+              display: flex;
+              flex-direction:column ;
+              list-style: none;
+              justify-content: flex-end;
+  
+          flex-wrap: wrap;
+          }
+          section#right article#tracks ul#black{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              text-align: center;
+              padding:2px
+
+          }
+          section#right article#tracks ul#black li{
+              margin-bottom: 5px;
+          }
+      
+      section#right article#tracks ul#green{
+          margin-bottom: 5px;
+          padding:2px
+        }
+          section#right article#tracks ul#black li{ 
+              font-family:" Akagi Pro W00 Medium";
+              padding: 2px;
+              text-align: center;
+              font-weight: bolder;
+
+              margin-bottom: 5px;
+              gap:3px;
+              color:#EA526F;
+              flex-wrap: wrap;
+              
+          }
+  
+          section#right article#tracks ul#green li {
+              font-family:" Akagi Pro W00 Medium";
+              font-weight: bolder;
+            color: #B8F500;
+            font-weight: bolder;
+          display: flex;
+              flex-direction: column;
+              row-gap: 5px;
+              margin-bottom: 5px;
+              flex-wrap: wrap;
+              text-align: center;
+  
+          }
+          section#right article#tracks ul#purple{
+              display: flex;
+              flex-direction: row;
+              row-gap: 20px;
+              font-family:" Akagi Pro W00 Medium";
+              font-weight: bolder;
+            color: #EA526F;
+            flex-wrap: wrap;
+            margin-bottom: 5px;
+            align-items: center;
+            justify-content: center;
+            padding: 2px;
+  
+                
+          }
+          section#right article#tracks ul#purple li{
+              font-family:" Akagi Pro W00 Medium";
+              font-weight: bold;
+  text-align: center;
+          }
+          div#player {
+              display: flex;
+              flex-wrap: wrap;
+          
+              
+                
+          
+            }
+            
+            .button {
+                display: flex;
+              flex-wrap: wrap;
+              flex-basis: 100%;
+              font-family:" Akagi Pro W00 Medium";           
+               background-color: #181115;
+          justify-content: space-around;
+              padding-bottom: 10px;
+              border: #181115 1px;
+              color: #B8F500;
+              padding: 5px 30px;
+              text-align: center;
+              font-weight: bolder;
+              text-decoration: none;
+             
+              font-size:15px;
+            }
+             footer  {
+              width: auto;
+              flex-wrap: wrap;
+          
+                
+               
+            }
+            
+            div#footer ul li{
+                list-style: none;
+                list-style: none;
+          
+            }
+             div#footer ul li a{
+                color:#EA526F;
+                font-size: 15px;
+                text-align:left;
+                text-decoration:wavy;
+                row-gap: 10px;;
+                flex-wrap: wrap;
+          
+            }
+
+  
+}
+
+html { 
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+    justify-content: center;
+
+  }
+    * {
+      
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding: 0 auto; 
+      font-family:"Akagi Pro W00 Medium";
+    }
+      body {
+          width: 100%;
+          height: max-content;
+    background-color: #181115;
+    align-items: center;
+
+
+   
+    }
+      h1 {
+          flex-basis: 100%;
+          text-align: center;
+          color: #B8F500;
+          font-family:" Akagi Pro W00 Medium";
+          align-items: center;
+          margin-bottom: 30px;
+      }
+
+    section#right {
+        display: flex;
+        flex-direction :row-reverse;
+        align-items:  center;
+        gap: 10px;
+        
+        }
+
+        section#right article#tracks ul{
+            display: flex;
+            flex-direction:column ;
+            list-style: none;
+            justify-content: flex-end;
+            font-size: 13px;
+            text-align: center;
+gap: 5px;
+        }
+        section#right article#tracks ul#black{
+            display: flex;
+            flex-direction: row;
+            
+            
+        }
+        section#right article#tracks ul#black{
+            margin-bottom: 20px;
+        }
+    
+    section#right article#tracks ul#green{
+        margin-bottom: 20px;
+        text-align: center;
+
+    }
+        section#right article#tracks ul#black li{ 
+            font-family:" Akagi Pro W00 Medium";
+            font-weight: bolder;
+            margin-bottom: 30px;
+            color:#EA526F;
+            
+        }
+
+        section#right article#tracks ul#green li {
+            font-family:" Akagi Pro W00 Medium";
+            font-weight: bolder;
+          color: #B8F500;
+          font-weight: bolder;
+
+        display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            margin-bottom: 20px;
+
+        }
+        section#right article#tracks ul#purple{
+            display: flex;
+            flex-direction: row;
+            row-gap: 30px;
+            font-family:" Akagi Pro W00 Medium";
+            font-weight: bolder;
+          color: #EA526F;
+          
+
+              
+        }
+        section#right article#tracks ul#purple li{
+            font-family:" Akagi Pro W00 Medium";
+            font-weight: bold;
+        }
+        div#player {
+            flex-wrap: wrap;
+        
+            
+              
+        
+          }
+          
+          .button {
+            
+            flex-basis: 50%;
+            font-family:" Akagi Pro W00 Medium";           
+             background-color: #181115;
+        
+        height: 100px;
+            padding-bottom: 10px;
+            border: #181115 1px;
+            color: #B8F500;
+            padding: 5px 30px;
+            text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+            display: inline-block;
+            font-size:40px;
+          }
+           footer  {
+            width: auto;
+            flex-wrap: wrap;
+        
+              
+             
+          }
+          
+          div#footer ul li{
+              list-style: none;
+              font-size: 30px;
+              list-style: none;
+        
+          }
+           div#footer ul li a{
+              color:#EA526F;
+              font-size: 35px;
+              text-align:left;
+              text-decoration:wavy;
+              row-gap: 10px;;
+              flex-wrap: wrap;
+        
+          }
